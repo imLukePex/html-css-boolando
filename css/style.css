@@ -1,0 +1,45 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff6900;
+    /* DEBUG */
+    height: 100px;
+}
+
+.topbar {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header .topbar .menu-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.topbar .main-menu {
+    display: flex;
+    list-style: none;
+}
+
+.topbar .main-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-menu li {
+    padding: 0 10px;
+}
