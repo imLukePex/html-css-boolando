@@ -16,7 +16,6 @@ header {
     width: 100%;
     position: fixed;
     z-index: 500;
-    /* DEBUG */
     height: 80px;
 }
 
@@ -93,11 +92,6 @@ main {
     width: calc((100% / 3) - 24px);
     position: relative;
     margin: 0 12px;
-
-    /* DEBUG */
-    /* background-color: goldenrod; */
-    min-height: 100px;
-    
 }
 
 .img-container {
@@ -149,6 +143,12 @@ img.overlap {
     font-size: 15px;
 }
 
+.sixth-slot {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+}
+
 .label-heart {
     position: absolute;
     top: 12px;
@@ -186,3 +186,75 @@ img.overlap {
     font-size: 15px;
     text-decoration: line-through;
 }
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+}
+
+.main-footer {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-footer, a {
+    color: white;
+}
+
+.col-footer ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.col-footer ul a {
+    text-decoration: none;
+}
+
+.col-footer ul a:hover {
+    text-decoration: underline;
+}
+
+.society { 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 13px;
+    padding: 8px 10px 0 0;
+}
+
+.findus {
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.social {
+    text-align: center;
+}
+
+.social, a {
+    color: white;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.info-social {
+    padding: 10px 5px 0 5px;
+}
+
+
+
+
+
