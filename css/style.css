@@ -14,32 +14,59 @@
 header {
     background-color: #ff6900;
     /* DEBUG */
-    height: 100px;
+    height: 80px;
 }
 
-.topbar {
+.container {
     max-width: 80%;
     margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-header .topbar .menu-column {
+header .container .menu-column {
     width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.topbar .main-menu {
+.container .main-menu {
     display: flex;
     list-style: none;
 }
 
-.topbar .main-menu a {
+.container .main-menu a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+}
+
+.container .main-menu a:hover {
+    text-decoration: underline;
 }
 
 .main-menu li {
     padding: 0 10px;
+    font-size: 16px;
 }
+
+header .container .logo-column {
+    max-width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-column img {
+    width: 200px;
+}
+
+header .container .buttons-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
